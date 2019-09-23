@@ -1,0 +1,14 @@
+.thumbnail-left {
+    display: flex;
+    justify-content: right;
+    width: 35%;
+    float: left;
+    clear: both;
+}
+
+.thumbnail-right {
+    display: flex;
+    justify-content: right;
+    width: 35%;
+    float: right;
+}

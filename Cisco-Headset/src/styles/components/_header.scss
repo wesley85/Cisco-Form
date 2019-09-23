@@ -1,0 +1,47 @@
+.header {
+    background: $purple;
+    color: white;
+    margin: 0 0 $m-size 0;
+    padding: $m-size 0;
+}
+
+.header__title {
+    font-size: $l-size;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 $m-size;
+}
+
+.header__subtitle {
+    color: $white;
+    font-size: $m-size;
+    font-weight: 500;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 $m-size;
+}
+
+.header-left {
+    color: $white;
+    display: flex;
+    justify-content: right;
+    margin: $m-size $s-size;
+    float: left;
+    clear: both;
+    width: 20rem;
+}
+
+.header-right {
+    color: $white;
+    display: flex;
+    justify-content: right;
+    margin: $m-size $s-size;
+    float: right;
+    width: 20rem;
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .header {
+        margin: 0 0 $xl-size 0;
+    }
+}
