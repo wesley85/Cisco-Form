@@ -10,9 +10,11 @@ export default class Products extends React.Component {
                 <button className="big_button_purple">
                     Add Item
                 </button>
-                <button className="big_button_white">
-                    More Info
-                </button>
+                <p className="big_button_white">
+                    <a>
+                        More Info
+                    </a>
+                </p>
             </p>
             <p className="product__wrapper" style={{float: 'right'}}>
             <p className="product__name">Cisco Headset 532</p>
@@ -20,9 +22,11 @@ export default class Products extends React.Component {
                 <button className="big_button_purple">
                     Add Item
                 </button>
-                <button className="big_button_white">
-                    More Info
-                </button>
+                <p className="big_button_white">
+                    <a>
+                        More Info
+                    </a>
+                </p>
             </p>
             <p className="product__wrapper" style={{float: 'right'}}>
             <p className="product__name">Cisco Headset 561 (Multibase)</p>
@@ -30,9 +34,11 @@ export default class Products extends React.Component {
                 <button className="big_button_purple">
                     Add Item
                 </button>
-                <button className="big_button_white">
-                    More Info
-                </button>
+                <p className="big_button_white">
+                    <a>
+                        More Info
+                    </a>
+                </p>
             </p>
             <p className="product__wrapper" style={{float: 'left'}}>
             <p className="product__name">Cisco Headset 561 (Standard)</p>
@@ -40,9 +46,11 @@ export default class Products extends React.Component {
                 <button className="big_button_purple">
                     Add Item
                 </button>
-                <button className="big_button_white">
-                    More Info
-                </button>
+                <p className="big_button_white">
+                    <a>
+                        More Info
+                    </a>
+                </p>
             </p>
             <p className="product__wrapper" style={{float: 'right'}}>
             <p className="product__name">Cisco Headset 562 (Multibase)</p>
@@ -50,9 +58,11 @@ export default class Products extends React.Component {
                 <button className="big_button_purple">
                     Add Item
                 </button>
-                <button className="big_button_white">
-                    More Info
-                </button>
+                <p className="big_button_white">
+                    <a>
+                        More Info
+                    </a>
+                </p>
             </p>
             <p className="product__wrapper" style={{float: 'left'}}>
             <p className="product__name">Cisco Headset 562 (Standard)</p>
@@ -60,9 +70,11 @@ export default class Products extends React.Component {
                 <button className="big_button_purple">
                     Add Item
                 </button>
-                <button className="big_button_white">
-                    More Info
-                </button>
+                <p className="big_button_white">
+                    <a>
+                        More Info
+                    </a>
+                </p>
             </p>
         </div>
       );

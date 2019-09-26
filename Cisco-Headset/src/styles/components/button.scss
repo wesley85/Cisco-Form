@@ -24,15 +24,17 @@
     font-weight: bold;
     font-size: $m-size;
     width: 51%;
-    margin: $m-size $s-size $m-size $s-size;
-    padding: 1rem;
+    margin: 5% 15% 5% 5%;
+    padding: 5% 4% 5% 5%;
     font-family: $roboto;
+    text-align: center;
 }
 
 .big_button_white:hover {
     background-color: #8EC853;
     color: $white;
     border: none;
+    text-align: center;
     border-radius: 1rem;
 }
 
