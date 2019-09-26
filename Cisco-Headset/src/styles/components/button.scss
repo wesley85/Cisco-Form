@@ -7,8 +7,8 @@
     font-weight: bold;
     font-size: $m-size;
     width: 51%;
-    margin: 0 $s-size 0 $s-size;
-    padding: 10px 15px 10px 15px;
+    margin: $s-size $s-size 0 $s-size;
+    padding: 10px 10px 10px 15px;
     font-family: $roboto;
 }
 
@@ -18,13 +18,13 @@
 }
 
 .big_button_white {
-    background: $white;
     border: none;
+    border-radius: 1rem;
     color: #8EC853;
     font-weight: bold;
     font-size: $m-size;
     width: 51%;
-    margin: $m-size $s-size 0 $s-size;
+    margin: $m-size $s-size $m-size $s-size;
     padding: 1rem;
     font-family: $roboto;
 }

@@ -15,8 +15,8 @@ export default class OrderForm extends React.Component {
             <ProductInfo />
             <Products />
             <CustomerInfo />
-            <Footer />
           </div>
+            <Footer />
       </div>
     );
   }
