@@ -1,0 +1,23 @@
+.form__header {
+    color: $purple;
+    padding: 0 0 0 3rem;
+}
+
+.form__field {
+    width: 80%;
+    padding: 2rem 2rem 2rem 2rem;
+    margin: 3rem 0 0 0;
+}
+
+.fine__print {
+    float: right; 
+    width: 40%;
+    padding: 3% 10% 0 0;
+    font-family: $roboto;
+    font-size: 2rem;
+    font-weight: 1rem;
+}
+
+.additional__info {
+    color: $purple;
+}

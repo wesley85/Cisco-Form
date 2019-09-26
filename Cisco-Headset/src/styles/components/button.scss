@@ -1,14 +1,49 @@
 // Big Button
-.big_button {
-    background: $purple;
-    border: none;
-    border-bottom: .6rem solid darken($purple, 10%);
-    color: white;
+.big_button_purple {
+    background: $white;
+    border: 1px solid $purple;
+    border-radius: 1rem;
+    color: $purple;
     font-weight: bold;
-    font-size: $l-size;
-    width: 100%;
-    margin: 0 0 $m-size 0;
-    padding: 2rem;
+    font-size: $m-size;
+    width: 51%;
+    margin: 0 $s-size 0 $s-size;
+    padding: 10px 15px 10px 15px;
+    font-family: $roboto;
+}
+
+.big_button_purple:hover {
+    background-color: $purple;
+    color: $white;
+}
+
+.big_button_white {
+    background: $white;
+    border: none;
+    color: #8EC853;
+    font-weight: bold;
+    font-size: $m-size;
+    width: 51%;
+    margin: $m-size $s-size 0 $s-size;
+    padding: 1rem;
+    font-family: $roboto;
+}
+
+.big_button_white:hover {
+    background-color: #8EC853;
+    color: $white;
+    border: none;
+    border-radius: 1rem;
+}
+
+.submit_button {
+    background: $purple;
+    font-weight: bold;
+    color: $white;
+    font-size: $m-size;
+    width: 51%;
+    margin: 0 $s-size 5rem 10rem;
+    padding: 1rem;
     font-family: $roboto;
 }
 

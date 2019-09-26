@@ -1,7 +1,35 @@
 .container {
-    max-width: 60rem;
-    margin: 0 auto;
-    padding: 0 $m-size;
-    background: $light-blue;
-    margin-bottom: $xl-size;
+    max-width: 100%;
+    clear: both;
+}
+
+.container__header {
+    max-width: 100%;
+    clear: both;
+}
+
+.product__container {
+    max-width: 55%;
+    padding: 0 5% 5% 8%;
+    float: left;
+    clear: both;
+}
+
+.container__form {
+    background-color: #C6C6C6;
+    max-width: 35%;
+    float: right;
+    margin: -34% 15rem 0 0;
+    padding: 0 0 0 10rem;
+}
+
+.footer__container {
+    max-width: 100%;
+    background-color: $purple;
+    font-family: $roboto;
+    font-size: 2rem;
+    color: $white;
+    clear: both;
+    margin: 0;
+    padding: 8rem 50rem 8rem 20rem;
 }
